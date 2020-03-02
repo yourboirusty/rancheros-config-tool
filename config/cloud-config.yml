@@ -1,0 +1,7 @@
+## MAIN SYSTEM CONFIGURATION ##
+
+hostname: yourhostname.tld
+
+rancher:
+  ssh:
+    port: 9643
