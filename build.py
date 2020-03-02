@@ -41,8 +41,8 @@ def get_config():
 
 
 def write_keys(sys_yaml):
-    if not 'ssh_publickeys' in sys_yaml:
-        sys_yaml['ssh_publickeys']=list()
+    if not 'ssh_authorized_keys' in sys_yaml:
+        sys_yaml['ssh_authorized_keys']=list()
     try:
         with open(MAIN_DIR+'/config/pub_keys', 'r') as pub_key_file:
             for key in pub_key_file:
