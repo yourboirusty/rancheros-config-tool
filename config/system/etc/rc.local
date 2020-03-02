@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wait-for-docker
+#Creating traefik reverse proxy network
+echo "Hello there!"
